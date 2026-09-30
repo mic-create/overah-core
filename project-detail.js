@@ -155,6 +155,184 @@ const projectsDatabase = {
         gallery: [],
         liveUrl: "",
         repositoryUrl: ""
+    },
+    "project-05": {
+        id: "project-05",
+        number: "05",
+        title: "Community & Religious Website",
+        category: "Organizations / Community",
+        industry: "Community & Religious Organizations",
+        services: "Website Design & Development",
+        timeline: "6 Weeks",
+        status: "Completed",
+        confidential: false,
+        summary: "An accessible and informative digital platform designed to help a community organization communicate schedules, resources, announcements, and important information to its members.",
+        overview: "A responsive community-focused website developed to create a central digital presence for an organization while making schedules, activities, resources, announcements, and other important information easier to access.",
+        challenge: "The organization required a clearer digital platform through which members and visitors could easily find schedules, announcements, organizational information, and other important resources.",
+        objective: [
+            "Create a clear and accessible online presence for the organization.",
+            "Make schedules, announcements, and important information easier to discover.",
+            "Provide a responsive experience for members accessing the website from mobile devices.",
+            "Create a flexible content structure that can be maintained and expanded over time."
+        ],
+        approach: [
+            { step: "01", title: "Content Planning", desc: "Organizing the organization's information, schedules, resources, and communication requirements." },
+            { step: "02", title: "Information Architecture", desc: "Creating a clear navigation structure that allows visitors to find important information quickly." },
+            { step: "03", title: "Interface Development", desc: "Building an accessible responsive interface with a visual direction appropriate for the organization." },
+            { step: "04", title: "Integration & Testing", desc: "Testing responsive layouts, content sections, navigation, and supported digital integrations." }
+        ],
+        solution: "Developed a responsive community website with structured information architecture, organizational resources, schedules, announcements, and support for relevant digital and live-broadcast integrations.",
+        features: [
+            { title: "Information Hub", desc: "A centralized location for organizational information, announcements, schedules, and resources." },
+            { title: "Responsive Interface", desc: "A mobile-friendly experience designed for visitors using phones, tablets, and desktop devices." },
+            { title: "Schedule Presentation", desc: "Clear presentation of important activities, services, meetings, and organizational schedules." },
+            { title: "Resource Sections", desc: "Dedicated areas for important documents, information, announcements, and community resources." },
+            { title: "Digital Broadcast Integration", desc: "Support for connecting visitors with relevant live or digital broadcast experiences where applicable." }
+        ],
+        technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Web Design", "Media Integration"],
+        outcome: "Delivered a structured digital platform that gives the organization a professional online presence while making important community information easier to access.",
+        mainImage: "assets/images/projects/project-05.jpg",
+        gallery: [
+            "assets/images/projects/project-05-01.jpg",
+            "assets/images/projects/project-05-02.jpg",
+            "assets/images/projects/project-05-03.jpg"
+        ],
+        liveUrl: "",
+        repositoryUrl: ""
+    },
+    "project-06": {
+        id: "project-06",
+        number: "06",
+        title: "Custom Business Dashboard",
+        category: "Web Applications / Business",
+        industry: "Business Operations",
+        services: "Dashboard Design & Web Application Development",
+        timeline: "12 Weeks",
+        status: "Completed",
+        confidential: false,
+        summary: "A custom business dashboard designed to bring operational information, key metrics, data visualization, and management controls into a centralized digital workspace.",
+        overview: "A purpose-built web application designed to provide business users with a centralized interface for viewing operational information, monitoring selected metrics, and managing relevant business activities.",
+        challenge: "The business required a more organized way to access operational information and management controls without relying on disconnected tools and manually compiled information.",
+        objective: [
+            "Centralize important operational information within one interface.",
+            "Present relevant data in a clear and understandable format.",
+            "Provide appropriate management controls for authorized users.",
+            "Create a scalable interface that can accommodate additional business functionality."
+        ],
+        approach: [
+            { step: "01", title: "Requirements Mapping", desc: "Identifying the business information, user roles, workflows, and dashboard functions required." },
+            { step: "02", title: "Dashboard Architecture", desc: "Structuring the application around clear navigation, information hierarchy, and modular dashboard components." },
+            { step: "03", title: "Data Integration", desc: "Connecting the interface to relevant APIs and structured data sources where required." },
+            { step: "04", title: "Testing & Refinement", desc: "Testing dashboard interactions, data presentation, responsiveness, and key management workflows." }
+        ],
+        solution: "Developed a centralized business dashboard combining operational summaries, data visualization, management controls, and responsive application interfaces.",
+        features: [
+            { title: "Operational Dashboard", desc: "A centralized overview designed to present relevant business information in an organized format." },
+            { title: "Data Visualization", desc: "Visual presentation of selected data to make important information easier to understand." },
+            { title: "Management Controls", desc: "Interface controls designed around the administrative requirements of the application." },
+            { title: "API Integration", desc: "Structured integration with application data sources where required." },
+            { title: "Responsive Application", desc: "A flexible interface designed to remain usable across different screen sizes." }
+        ],
+        technologies: ["HTML5", "CSS3", "JavaScript", "API Integration", "Data Visualization", "Web Application Architecture"],
+        outcome: "Delivered a centralized business application that provides a clearer operational interface and brings selected business information and controls into one digital environment.",
+        mainImage: "assets/images/projects/project-06.jpg",
+        gallery: [
+            "assets/images/projects/project-06-01.jpg",
+            "assets/images/projects/project-06-02.jpg",
+            "assets/images/projects/project-06-03.jpg"
+        ],
+        liveUrl: "",
+        repositoryUrl: ""
+    },
+    "project-07": {
+        id: "project-07",
+        number: "07",
+        title: "Professional Services Redesign",
+        category: "Redesigns / Performance",
+        industry: "Professional Services",
+        services: "Website Redesign & Frontend Modernization",
+        timeline: "8 Weeks",
+        status: "Completed",
+        confidential: false,
+        summary: "A complete modernization of an existing professional services website, transforming an outdated digital experience into a cleaner, more responsive, and professionally structured platform.",
+        overview: "A website redesign project focused on improving the visual hierarchy, content structure, responsive behavior, and overall usability of an existing professional services website.",
+        challenge: "The existing website relied on an outdated visual structure and required improvements to its presentation, navigation, responsive behavior, and overall user experience.",
+        objective: [
+            "Modernize the visual presentation of the existing website.",
+            "Improve navigation and content hierarchy.",
+            "Create a stronger responsive experience across devices.",
+            "Improve the maintainability and structure of the frontend.",
+            "Preserve important existing information while presenting it more effectively."
+        ],
+        approach: [
+            { step: "01", title: "Existing Site Review", desc: "Reviewing the current website structure, content, interface, and areas requiring improvement." },
+            { step: "02", title: "Design Direction", desc: "Establishing a modern visual system around typography, spacing, layout, and brand consistency." },
+            { step: "03", title: "Frontend Modernization", desc: "Rebuilding key interface sections using cleaner and more responsive frontend structures." },
+            { step: "04", title: "Performance Refinement", desc: "Reviewing asset usage, layout behavior, and frontend implementation for a more efficient experience." }
+        ],
+        solution: "Modernized the existing website with a cleaner interface, improved information hierarchy, responsive layouts, refined visual presentation, and a more maintainable frontend structure.",
+        features: [
+            { title: "Modernized Interface", desc: "A refreshed visual direction designed to create a more contemporary professional experience." },
+            { title: "Responsive Layout", desc: "Improved layouts that adapt more effectively across desktop, tablet, and mobile screens." },
+            { title: "Improved Navigation", desc: "A clearer information structure designed to help visitors reach important content more efficiently." },
+            { title: "Frontend Refinement", desc: "Cleaner interface structures and styling designed to improve maintainability." },
+            { title: "Performance-Conscious Design", desc: "A more focused approach to assets, layouts, and frontend implementation." }
+        ],
+        technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Frontend Optimization"],
+        outcome: "Delivered a modernized professional services website with a stronger visual identity, clearer structure, improved responsiveness, and a more contemporary user experience.",
+        mainImage: "assets/images/projects/project-07.jpg",
+        gallery: [
+            "assets/images/projects/project-07-01.jpg",
+            "assets/images/projects/project-07-02.jpg",
+            "assets/images/projects/project-07-03.jpg"
+        ],
+        liveUrl: "",
+        repositoryUrl: ""
+    },
+    "project-08": {
+        id: "project-08",
+        number: "08",
+        title: "Secure Client Portal",
+        category: "Portals / Web Applications",
+        industry: "Professional Services",
+        services: "Client Portal Design & Web Application Development",
+        timeline: "14 Weeks",
+        status: "Completed",
+        confidential: true,
+        summary: "A dedicated client portal designed to provide an organized digital environment for client communication, document exchange, project information, and milestone tracking.",
+        overview: "A custom client-facing web application designed to provide clients with a centralized environment for accessing relevant project information, exchanging documents, and following selected project milestones.",
+        challenge: "The project required a centralized and more organized way for clients and service providers to exchange information, manage documents, and maintain visibility throughout an ongoing engagement.",
+        objective: [
+            "Create a dedicated digital environment for client interactions.",
+            "Provide a structured method for exchanging relevant project documents.",
+            "Make project progress and milestone information easier to access.",
+            "Implement controlled access to client-specific information.",
+            "Create a professional interface suitable for long-term client use."
+        ],
+        approach: [
+            { step: "01", title: "Workflow Analysis", desc: "Understanding the client communication, document exchange, and project tracking requirements." },
+            { step: "02", title: "Access Architecture", desc: "Planning authentication and access structures around client-specific information." },
+            { step: "03", title: "Portal Development", desc: "Building the client-facing interface and core application workflows." },
+            { step: "04", title: "Testing & Deployment", desc: "Testing authentication flows, portal interactions, responsiveness, and core functionality." }
+        ],
+        solution: "Developed a dedicated client portal that brings communication, document exchange, project information, and milestone visibility into a structured web-based environment.",
+        features: [
+            { title: "Client Authentication", desc: "Controlled access functionality designed to protect client-specific portal areas." },
+            { title: "Document Exchange", desc: "Structured functionality for sharing and accessing relevant project documents." },
+            { title: "Project Milestones", desc: "A clear interface for presenting selected stages and progress information." },
+            { title: "Client Dashboard", desc: "A centralized client-facing overview of relevant project information and activities." },
+            { title: "Responsive Portal", desc: "A responsive interface designed for convenient access across desktop and mobile devices." }
+        ],
+        technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "REST API", "Authentication", "Database Integration"],
+        outcome: "Delivered a structured client portal designed to improve the organization of client-facing project information, communication, document exchange, and milestone visibility.",
+        mainImage: "assets/images/projects/project-08.jpg",
+        gallery: [
+            "assets/images/projects/project-08-01.jpg",
+            "assets/images/projects/project-08-02.jpg",
+            "assets/images/projects/project-08-03.jpg"
+        ],
+        liveUrl: "",
+        repositoryUrl: ""
     }
 };
 
