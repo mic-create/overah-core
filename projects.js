@@ -50,7 +50,7 @@ const projectsData = [
         description: "An accessible, informative digital platform connecting community members with schedules, resources, and live broadcast integrations.",
         image: "assets/images/projects/project-05.jpg",
         technologies: "HTML, CSS, Responsive UI",
-        link: "https://overahcore.vercel.app/project-detail.html?project=project-02",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-05",
         isLarge: false
     },
     {
@@ -62,7 +62,7 @@ const projectsData = [
         description: "An analytical web application offering real-time operational insights, data visualization, and custom management controls.",
         image: "assets/images/projects/project-06.jpg",
         technologies: "JavaScript, API Integration",
-        link: "https://overahcore.vercel.app/project-detail.html?project=project-02",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-06",
         isLarge: false
     },
     {
@@ -74,7 +74,7 @@ const projectsData = [
         description: "Complete legacy modernization transforming an outdated professional services site into a modern, high-performance touchpoint.",
         image: "assets/images/projects/project-07.jpg",
         technologies: "Architecture, Vitals Tuning",
-        link: "https://overahcore.vercel.app/project-detail.html?project=project-02",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-07",
         isLarge: false
     },
     {
@@ -86,7 +86,7 @@ const projectsData = [
         description: "A dedicated client communication and project delivery hub providing secure document exchange and milestone tracking.",
         image: "assets/images/projects/project-08.jpg",
         technologies: "Secure Node Backend, Frontend",
-        link: "contact.html",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-08",
         isLarge: false
     }
 ];
