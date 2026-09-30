@@ -7,10 +7,10 @@
 // 1. CONFIGURATION SECTION (EDIT PLACEHOLDERS HERE)
 // ==========================================
 const CONTACT_CONFIG = {
-    whatsappNumber: "[+2349162874012]", // e.g. "+2348000000000"
-    facebookUrl: "[INSERT_OFFICIAL_FACEBOOK_URL]",
+    whatsappNumber: "+2349162874012", // e.g. "+2348000000000"
+    facebookUrl: "https://web.facebook.com/profile.php?id=61595159601633",
     tiktokUrl: "[INSERT_OFFICIAL_TIKTOK_URL]",
-    xUrl: "[INSERT_OFFICIAL_X_URL]",
+    xUrl: "https://x.com/MatchPulseX",
     defaultWhatsAppMessage: "Hello OVERAH CORE, I would like to discuss a digital project."
 };
 
