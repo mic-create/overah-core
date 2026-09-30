@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Case Study — OVERAH CORE</title>
+    <meta name="description" content="Explore detailed professional case studies, methodology, and digital engineering solutions by OVERAH CORE.">
+    
+    <!-- Open Graph Metadata (Dynamic via JS or Default) -->
+    <meta property="og:title" id="ogTitle" content="Project Case Study — OVERAH CORE">
+    <meta property="og:description" id="ogDesc" content="Explore detailed digital engineering solutions and case studies by OVERAH CORE.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" id="ogImage" content="assets/images/projects/project-01.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="project-detail.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo" aria-label="OVERAH CORE Home">
+                <img src="assets/images/brand/01-overah-core-logo-primary.png" alt="OVERAH CORE Logo" class="header-logo-img">
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="consulting.html" class="nav-link">Consulting</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-primary btn-sm">Start a Project</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="mainContent">
+        <!-- Dynamic Content Will Be Rendered Here -->
+        <div id="projectContainer">
+            <!-- Loaded via project-detail.js -->
+        </div>
+
+        <!-- Fallback / Not Found State (Hidden by default) -->
+        <div id="notFoundState" class="not-found-container" style="display: none;">
+            <div class="container text-center py-5">
+                <span class="section-tag">404 Error</span>
+                <h1 class="section-title">Project Not Found</h1>
+                <p class="section-subtitle" style="margin: 0 auto 2rem;">The requested project case study could not be located or may have been removed.</p>
+                <a href="projects.html" class="btn btn-primary">Return to Projects</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand-col">
+                    <a href="index.html" class="brand-logo footer-logo">
+                        <img src="assets/images/brand/02-overah-core-logo-white.png" alt="OVERAH CORE Logo White" class="footer-logo-img">
+                    </a>
+                    <p class="footer-desc">
+                        Professional technology and web development consultancy helping businesses build, modernize, and manage secure digital solutions.
+                    </p>
+                    <div class="footer-registry">
+                        Registered Technology Consultancy<br>
+                        <span>Business registration details available upon request.</span>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="consulting.html">Consulting</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Website Redesign</a></li>
+                        <li><a href="services.html">Web Applications</a></li>
+                        <li><a href="services.html">Website Maintenance</a></li>
+                        <li><a href="services.html">Performance Optimization</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="contact.html">Request a Consultation</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 OVERAH CORE. All rights reserved.</p>
+                <p>Professional Technology Consultancy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="project-detail.js"></script>
+</body>
+</html>
