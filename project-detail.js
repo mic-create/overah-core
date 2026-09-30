@@ -550,7 +550,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         // Build Related Projects (Pick up to 3 other projects)
-        const relatedKeys = projectKeys.filter(k => k !== p.id).slice(0, 3);
+        const relatedKeys = projectKeys.filter(k => k !== p.id).slice(0, 7);
         let relatedHtml = `
             <section class="related-projects-section">
                 <div class="container">
