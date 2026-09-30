@@ -14,7 +14,7 @@ const projectsData = [
         description: "A refined corporate web presence engineered for an enterprise consultancy, focusing on high-speed asset delivery and professional brand authority.",
         image: "assets/images/projects/project-02.jpg",
         technologies: "HTML, CSS, JavaScript",
-        link: "contact.html",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-02",
         isLarge: false
     },
     {
@@ -26,7 +26,7 @@ const projectsData = [
         description: "A secure, high-conversion digital storefront built with optimized frontend architecture and streamlined checkout workflows.",
         image: "assets/images/projects/project-03.jpg",
         technologies: "Frontend, Secure API, Payments",
-        link: "contact.html",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-03",
         isLarge: false
     },
     {
@@ -38,7 +38,7 @@ const projectsData = [
         description: "A secure institutional portal designed to manage member credentials, internal documents, and administrative communication channels.",
         image: "assets/images/projects/project-04.jpg",
         technologies: "Backend API, Database, Auth",
-        link: "contact.html",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-04",
         isLarge: true
     },
     {
@@ -50,7 +50,7 @@ const projectsData = [
         description: "An accessible, informative digital platform connecting community members with schedules, resources, and live broadcast integrations.",
         image: "assets/images/projects/project-05.jpg",
         technologies: "HTML, CSS, Responsive UI",
-        link: "contact.html",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-02",
         isLarge: false
     },
     {
@@ -62,7 +62,7 @@ const projectsData = [
         description: "An analytical web application offering real-time operational insights, data visualization, and custom management controls.",
         image: "assets/images/projects/project-06.jpg",
         technologies: "JavaScript, API Integration",
-        link: "contact.html",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-02",
         isLarge: false
     },
     {
@@ -74,7 +74,7 @@ const projectsData = [
         description: "Complete legacy modernization transforming an outdated professional services site into a modern, high-performance touchpoint.",
         image: "assets/images/projects/project-07.jpg",
         technologies: "Architecture, Vitals Tuning",
-        link: "contact.html",
+        link: "https://overahcore.vercel.app/project-detail.html?project=project-02",
         isLarge: false
     },
     {
